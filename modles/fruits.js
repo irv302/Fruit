@@ -22,6 +22,6 @@ const fruits = [{
 
 module.exports = fruits;
 
-console.log(module)
+
 
 

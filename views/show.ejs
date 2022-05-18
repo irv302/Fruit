@@ -8,13 +8,15 @@
 </head>
 <body>
 
-    <h1><%= fruit.name %> Show Page</h1>
+    <h1><%= fruit.name %> Show Page</h1> 
     <p>This is a <%= fruit.color %> color</p>
-    <% if (fruit.readyToEAT) { %>
+
+    <% if (fruit.readyToEat) { %>
         <p>This fruit is ready to eat</p>
         <% } else { %>
         <p>This fruit is NOT ready to eat</p>
         <% } %>
-
+        
+        <a herf="/fruits">Back to Fruits Index</a>
 </body>
 </html>
